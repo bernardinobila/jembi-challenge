@@ -1,0 +1,20 @@
+plugins {
+  id "idea"
+  id "java"
+  id "eclipse"
+  id "application"
+}
+
+version = "0.0.2"
+group = "org.jembi"
+sourceCompatibility = 1.8
+archivesBaseName = "challenge"
+mainClassName = "org.jembi.challenge.Main"
+
+repositories {
+  jcenter()
+}
+
+dependencies {
+  runtime "org.xerial:sqlite-jdbc:3.23.1"
+}
